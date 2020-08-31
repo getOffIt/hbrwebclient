@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "567359141c80b71299314814501bdcde",
+    "revision": "869a05e22fb313b19ead442ad0f9f5c3",
     "url": "/hbrwebclient/index.html"
   },
   {
-    "revision": "2389a2f4641605ce6760",
+    "revision": "fcb51bd57b14f7cc65ba",
     "url": "/hbrwebclient/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "c42b13b337a10c6d1960",
-    "url": "/hbrwebclient/static/js/2.8fe5b87c.chunk.js"
+    "revision": "0974f5626311c576294c",
+    "url": "/hbrwebclient/static/js/2.c5e07428.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/hbrwebclient/static/js/2.8fe5b87c.chunk.js.LICENSE.txt"
+    "url": "/hbrwebclient/static/js/2.c5e07428.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2389a2f4641605ce6760",
-    "url": "/hbrwebclient/static/js/main.646a0d53.chunk.js"
+    "revision": "fcb51bd57b14f7cc65ba",
+    "url": "/hbrwebclient/static/js/main.396b08e9.chunk.js"
   },
   {
     "revision": "9ce63a89cb033516827c",

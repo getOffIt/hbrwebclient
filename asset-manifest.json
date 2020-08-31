@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/hbrwebclient/static/css/main.5f361e03.chunk.css",
-    "main.js": "/hbrwebclient/static/js/main.646a0d53.chunk.js",
-    "main.js.map": "/hbrwebclient/static/js/main.646a0d53.chunk.js.map",
+    "main.js": "/hbrwebclient/static/js/main.396b08e9.chunk.js",
+    "main.js.map": "/hbrwebclient/static/js/main.396b08e9.chunk.js.map",
     "runtime-main.js": "/hbrwebclient/static/js/runtime-main.f810e880.js",
     "runtime-main.js.map": "/hbrwebclient/static/js/runtime-main.f810e880.js.map",
-    "static/js/2.8fe5b87c.chunk.js": "/hbrwebclient/static/js/2.8fe5b87c.chunk.js",
-    "static/js/2.8fe5b87c.chunk.js.map": "/hbrwebclient/static/js/2.8fe5b87c.chunk.js.map",
+    "static/js/2.c5e07428.chunk.js": "/hbrwebclient/static/js/2.c5e07428.chunk.js",
+    "static/js/2.c5e07428.chunk.js.map": "/hbrwebclient/static/js/2.c5e07428.chunk.js.map",
     "index.html": "/hbrwebclient/index.html",
-    "precache-manifest.28a5d171feb6ea03e91522767cb306b5.js": "/hbrwebclient/precache-manifest.28a5d171feb6ea03e91522767cb306b5.js",
+    "precache-manifest.cc37954169faaf4965e26a711c7a4dea.js": "/hbrwebclient/precache-manifest.cc37954169faaf4965e26a711c7a4dea.js",
     "service-worker.js": "/hbrwebclient/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/hbrwebclient/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.8fe5b87c.chunk.js.LICENSE.txt": "/hbrwebclient/static/js/2.8fe5b87c.chunk.js.LICENSE.txt",
+    "static/js/2.c5e07428.chunk.js.LICENSE.txt": "/hbrwebclient/static/js/2.c5e07428.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/hbrwebclient/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f810e880.js",
-    "static/js/2.8fe5b87c.chunk.js",
+    "static/js/2.c5e07428.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.646a0d53.chunk.js"
+    "static/js/main.396b08e9.chunk.js"
   ]
 }

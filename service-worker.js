@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hbrwebclient/precache-manifest.28a5d171feb6ea03e91522767cb306b5.js"
+  "/hbrwebclient/precache-manifest.cc37954169faaf4965e26a711c7a4dea.js"
 );
 
 self.addEventListener('message', (event) => {
