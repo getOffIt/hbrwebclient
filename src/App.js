@@ -10,13 +10,14 @@ class App extends Component {
 }
 
 callAPI() {
-    fetch("http://localhost:9000/latestTip")
+  fetch("https://api.jsonbin.io/b/5f4cb60e4d8ce411138582b6")
         .then(res => res.text())
         .then(res => this.setState({ apiResponse: res }));
 }
 
 componentWillMount() {
     this.callAPI();
+
 }
 
   render() {
