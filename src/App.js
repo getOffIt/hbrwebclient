@@ -6,13 +6,20 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { apiResponse: "" };
+    this.state = { 
+      apiResponse: "",
+      title: "",
+      content:""
+    };
 }
 
 callAPI() {
   fetch("https://api.jsonbin.io/b/5f4cb60e4d8ce411138582b6")
-        .then(res => res.text())
-        .then(res => this.setState({ apiResponse: res }));
+        .then(res => res.json())
+        .then(res => this.setState({ apiResponse: res,
+           title: res.title,
+           content: res.content }));
+
 }
 
 componentWillMount() {
@@ -23,20 +30,10 @@ componentWillMount() {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        
-          <p className="App-intro">;{this.state.apiResponse}</p>
-        
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-        </a>
-        </header>
+        <h1>{this.state.title}</h1>
+       <p>{this.state.content}</p>
+         
+
       </div>
     );
   }
