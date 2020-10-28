@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -9,12 +8,13 @@ class App extends Component {
     this.state = { 
       apiResponse: "",
       title: "",
+      date: "Oct 28th 2020",
       content:""
     };
 }
 
 callAPI() {
-  fetch("https://api.jsonbin.io/b/5f4cb60e4d8ce411138582b6")
+  fetch("https://api.jsonbin.io/b/5f4cb60e4d8ce411138582b6/1")
         .then(res => res.json())
         .then(res => this.setState({ apiResponse: res,
            title: res.title,
@@ -30,7 +30,8 @@ componentWillMount() {
   render() {
     return (
       <div className="App">
-        <h1>{this.state.title}</h1>
+        <h1 class="App-title">The Management Tip {this.state.title}</h1>
+        <h2 class="App-tip-title">{this.state.date}</h2>
        <p>{this.state.content}</p>
          
 
