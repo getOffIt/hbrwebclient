@@ -8,7 +8,7 @@ class App extends Component {
     this.state = { 
       apiResponse: "",
       title: "",
-      date: "Oct 29th 2020",
+      date: "Thursday Oct 29th 2020",
       content:""
     };
 }
