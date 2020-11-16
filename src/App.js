@@ -8,13 +8,13 @@ class App extends Component {
     this.state = { 
       apiResponse: "",
       title: "",
-      date: "Thursday Oct 29th 2020",
+      date: "",
       content:""
     };
 }
 
 callAPI() {
-  fetch("https://api.jsonbin.io/b/5f4cb60e4d8ce411138582b6/1")
+  fetch("http://www.hbrtips.com/data/latesttipPROD.json")
         .then(res => res.json())
         .then(res => this.setState({ apiResponse: res,
            title: res.title,
