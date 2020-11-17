@@ -8,17 +8,23 @@ class App extends Component {
     this.state = { 
       apiResponse: "",
       title: "",
-      date: "Thursday Oct 29th 2020",
+      date: "",
       content:""
     };
 }
 
 callAPI() {
-  fetch("https://api.jsonbin.io/b/5f4cb60e4d8ce411138582b6/1")
+
+
+
+  fetch("http://hbrtips.com.s3-website.eu-west-2.amazonaws.com/data/latesttipPROD.json")
         .then(res => res.json())
         .then(res => this.setState({ apiResponse: res,
            title: res.title,
-           content: res.content }));
+           content: res.content }))
+           .catch(function(error) {
+            console.log('Looks like there was a problem: \n', error);
+          });
 
 }
 
