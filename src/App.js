@@ -17,7 +17,7 @@ callAPI() {
 
 
 
-  fetch("http://hbrtips.com.s3-website.eu-west-2.amazonaws.com/data/latesttipPROD.json")
+  fetch("https://hbrtips.com/data/latesttipPROD.json")
         .then(res => res.json())
         .then(res => this.setState({ apiResponse: res,
            title: res.title,
